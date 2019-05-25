@@ -139,6 +139,11 @@ h6 {
 .nav-scroll .active {
 	position: relative;
 }
+
+.logo-1 {
+	height: 100px;
+}
+
 .banner {
 	background:url("images/video_banner3.gif") no-repeat 0% 0% / 100%;
 	color:#ffffff;
