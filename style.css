@@ -43,6 +43,14 @@ p {
 	font-weight: 400;
 	margin: 0;
 }
+
+p .faehigkeiten {
+	line-height: 1.6;
+	font-size: 30px;
+	color: #292727;
+	font-family:"Avenir LT Std 65 Medium"
+}
+
 h1 {
 	font-size: 50px;
 }
@@ -132,7 +140,7 @@ h6 {
 	position: relative;
 }
 .banner {
-	background:url(images/video_banner.gif) no-repeat 0% 0% / 100%;
+	background:url("images/video_banner3.gif") no-repeat 0% 0% / 100%;
 	color:#ffffff;
 	text-align: center;
 	width: 100%;
@@ -190,6 +198,8 @@ h6 {
 	left: calc(50% - 87px);
 	width: 175px;
 }
+
+
 .section-title-line:after {
 	background: #ab2f52;
 	bottom: -1px;
@@ -292,6 +302,107 @@ h6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
+
+
+/*Fähigkeiten*/
+
+.ftco-section {
+    padding: 0 0 7em 0;
+    position: relative;
+}
+
+
+.bg-light {
+    background: #f8f9fa !important;
+}
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease; }
+  @media screen and (prefers-reduced-motion: reduce) {
+    .progress-bar {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none; } }
+
+.progress-bar {
+  background:rgb(250,166,0);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: 600;
+  position: relative;
+  overflow: visible;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+
+  .progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    content: '';
+    background: #0075f6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    opacity: 0; }
+
+.progress-bar span {
+    position: absolute;
+    top: -38px;
+    right: 0;
+    font-size: 20px;
+    font-weight: 400; }
+
 
 .portfolio .filtering {
 	border-radius: 28px;
@@ -534,7 +645,7 @@ h6 {
 	color: #ffffff;
 	font-size: 13px;
 	text-align: center;
-	padding:7px 0px ;
+	padding:7px 0px 0px 0px ;
 }
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
